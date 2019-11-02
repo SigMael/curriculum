@@ -1,0 +1,18 @@
+.left{
+    background-color: #f0ecec;
+    
+}
+
+.right{
+    background-color: rgb(245, 239, 239);
+}
+
+.profilePicture{
+    /* width:70px;
+    height:100px; */
+    border-radius: 50%;
+}
+
+.progress-bar{
+    background-color: #F8BB10;
+}
