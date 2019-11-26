@@ -6,10 +6,12 @@ body{
 html, body { height: 100%; }
 body { margin: 0; }
 
+
+
 .contact{
     position: absolute;
     bottom: 0;
-    width: 70%;
+
     margin-bottom: 25px;
 }
 
@@ -36,6 +38,7 @@ body { margin: 0; }
 .duree {
     font-size: 14px;
     color: rgb(168, 167, 167);
+  	margin-bottom :0;
 }
 
 h3{
@@ -52,6 +55,8 @@ h4{
 .header{
     height: 100vh;
 }
+
+
 
 hr { width: 100%; }
 
@@ -123,6 +128,11 @@ hr { width: 100%; }
 .link-element{
 
     margin-right:6px;
+}
+
+.metadata{
+	margin-bottom:20px;
+  clear:both;
 }
 
 .nom{
@@ -214,9 +224,9 @@ hr { width: 100%; }
     background-color: #F8BB10;
 }
 
-.resume-bpi{
-    flex:0 0 40%;
-    width:70%;
+.resume{
+    flex:0 0 50%;
+  margin-left:40px;
 }
 
 .skillPercent {
@@ -238,7 +248,7 @@ hr { width: 100%; }
 
 .textResume{
     margin-bottom: 50px;
-    width: 80%;
+  	text-align: justify;
 }
 
 
@@ -266,4 +276,14 @@ hr { width: 100%; }
 .timelineElement{
     position: relative;
     margin-bottom: 25px;
+}
+
+@media (max-height: 720px) {
+   /* CSS appliqué aux petits écrans */
+   .header{
+  	height:auto;
+  }
+  .contact{
+  	position:relative;
+  }
 }
